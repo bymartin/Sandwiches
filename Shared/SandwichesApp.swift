@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct SandwichesApp: App {
+    // source of truth for a mutable object
+    // like @State for a value
+    @StateObject private var store = SandwichStore(sandwiches: testData)
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(store: store)
         }
     }
 }

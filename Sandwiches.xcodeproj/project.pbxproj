@@ -15,6 +15,12 @@
 		4C822FA224A275F900907B70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C822F7724A275F800907B70 /* ContentView.swift */; };
 		4C822FA324A275F900907B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C822F7824A275F900907B70 /* Assets.xcassets */; };
 		4C822FA424A275F900907B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C822F7824A275F900907B70 /* Assets.xcassets */; };
+		4C822FB424A280A200907B70 /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C822FB324A280A200907B70 /* Sandwich.swift */; };
+		4C822FB524A280A200907B70 /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C822FB324A280A200907B70 /* Sandwich.swift */; };
+		4C822FB724A28CE100907B70 /* SandwichDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C822FB624A28CE100907B70 /* SandwichDetail.swift */; };
+		4C822FB824A28CE100907B70 /* SandwichDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C822FB624A28CE100907B70 /* SandwichDetail.swift */; };
+		4C822FBA24A2A94300907B70 /* SandwichStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C822FB924A2A94300907B70 /* SandwichStore.swift */; };
+		4C822FBB24A2A94300907B70 /* SandwichStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C822FB924A2A94300907B70 /* SandwichStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,9 @@
 		4C822F9824A275F900907B70 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C822F9C24A275F900907B70 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		4C822F9E24A275F900907B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C822FB324A280A200907B70 /* Sandwich.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sandwich.swift; sourceTree = "<group>"; };
+		4C822FB624A28CE100907B70 /* SandwichDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichDetail.swift; sourceTree = "<group>"; };
+		4C822FB924A2A94300907B70 /* SandwichStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +109,9 @@
 			children = (
 				4C822F7624A275F800907B70 /* SandwichesApp.swift */,
 				4C822F7724A275F800907B70 /* ContentView.swift */,
+				4C822FB924A2A94300907B70 /* SandwichStore.swift */,
+				4C822FB624A28CE100907B70 /* SandwichDetail.swift */,
+				4C822FB324A280A200907B70 /* Sandwich.swift */,
 				4C822F7824A275F900907B70 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -308,8 +320,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C822FBA24A2A94300907B70 /* SandwichStore.swift in Sources */,
 				4C822FA124A275F900907B70 /* ContentView.swift in Sources */,
 				4C822F9F24A275F900907B70 /* SandwichesApp.swift in Sources */,
+				4C822FB424A280A200907B70 /* Sandwich.swift in Sources */,
+				4C822FB724A28CE100907B70 /* SandwichDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +332,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C822FBB24A2A94300907B70 /* SandwichStore.swift in Sources */,
 				4C822FA224A275F900907B70 /* ContentView.swift in Sources */,
 				4C822FA024A275F900907B70 /* SandwichesApp.swift in Sources */,
+				4C822FB524A280A200907B70 /* Sandwich.swift in Sources */,
+				4C822FB824A28CE100907B70 /* SandwichDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
