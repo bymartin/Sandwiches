@@ -80,6 +80,9 @@ struct SandwichCell: View {
     var body: some View {
         NavigationLink(destination: SandwichDetail(sandwich: sandwich)) {
             Image(sandwich.thumbnailName)
+                .resizable()
+                .scaledToFit()
+                .frame(width: 50, height: 50)
                 .cornerRadius(8)
             
             VStack(alignment: .leading) {
